@@ -98,7 +98,7 @@ export default function AlertDialog({ idProduct, check, img, name, price, descri
     return (
         <DialogBox>
             {cart.length && check ?
-                <Button variant="outlined" onClick={removeFromCart}>
+                <Button color="red" variant="outlined" onClick={removeFromCart}>
                     Remover
                 </Button> :
                 <Button variant="outlined" onClick={handleClickOpen}>
